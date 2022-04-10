@@ -131,13 +131,13 @@
             </div>
         </div>
 
-        <section class="kategori-1">
+        <section class="kategori-1 mb-5">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="container">
-                    <div class="row">
-                        <h2 class="text-center mt-5 mb-5">Pilih Service</h2>
-                        <div class="col-md-2 no"></div>
-                        <div class="col-md-4">
+                <h2 class="text-center mt-5">Pilih Service</h2>
+                    <div class="row g-3 mt-3 mb-5">
+                        <div class="col-md-2 col-xs-2 no"></div>
+                        <div class="col-md-4 col-xs-6">
                             <div class="card">
                                 <div class="card-body">
                                     <i class="fas fa-home"></i>
@@ -146,7 +146,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-xs-6">
                             <div class="card">
                                 <div class="card-body">
                                     <i class="fas fa-home"></i>
@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 no"></div>
+                        <div class="col-md-2 col-xs-2 no"></div>
                     </div>
                 </div>
             </div>

@@ -20,9 +20,9 @@
 .kategori-1{
     position: relative;
     background-image:url(../img/reasons.png);
-    height: 70vh;
+    
     h2{
-        font-weight: bolder;
+        font-weight: bold;
         color: #000F48;
     }
 }
@@ -37,7 +37,7 @@
     .kategori-1 {
         h2{
             font-size: 20px;
-            margin-bottom: -50px;
+            margin-bottom: -20px;
         }
         .no{
             display: none !important;
@@ -54,13 +54,15 @@
     }
     .card-mitra{
         align-items: center; 
-        height:16rem;
     }
 }
 @media screen and (min-width: 426px) {
     .mitra {
         h2{
             font-size: 35px;
+        }
+        .card-mitra{
+            height:16rem;
         }
     }
 }
@@ -69,6 +71,9 @@
         h2{
             font-size: 20px;
             margin-bottom: -20px;
+        }
+        .card-mitra{
+            height:12rem;
         }
         .no{
             display: none !important;
