@@ -12,8 +12,30 @@
         color: #33334f;
         font-weight: 600;
         font-size: 5vw;
-        left: 170px;
-        top: 230px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .bg-web {
+        h1{
+            left: 170px;
+            top: 230px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .bg-web {
+        h1{
+            left: 85px;
+            top: 125px;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .bg-web {
+        h1{
+            left: 55px;
+            top: 85px;
+        }
     }
 }
 
