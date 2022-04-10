@@ -17,6 +17,65 @@
     }
 }
 
+.kategori-1{
+    position: relative;
+    background-image:url(../img/reasons.png);
+    height: 70vh;
+    h2{
+        font-weight: bolder;
+        color: #000F48;
+    }
+}
+@media screen and (min-width: 426px) {
+    .kategori-1 {
+        h2{
+            font-size: 35px;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .kategori-1 {
+        h2{
+            font-size: 20px;
+            margin-bottom: -50px;
+        }
+        .no{
+            display: none !important;
+        }
+    }
+}
+
+.mitra{
+    position: relative;
+    background-image:url(../img/services.png);
+    h2{
+        font-weight:bold;
+        color: #000F48;
+    }
+    .card-mitra{
+        align-items: center; 
+        height:16rem;
+    }
+}
+@media screen and (min-width: 426px) {
+    .mitra {
+        h2{
+            font-size: 35px;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .mitra {
+        h2{
+            font-size: 20px;
+            margin-bottom: -20px;
+        }
+        .no{
+            display: none !important;
+        }
+    }
+}
+
 .produk-area{
     .jud{
         color: #000F48

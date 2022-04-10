@@ -122,22 +122,21 @@
             <img src="{{asset('landing/img/main-bg.png')}}" class="img-fluid bg" alt="Logo">
             <div class="container">
                 
-                        <h1>Building Things
+                        <!-- <h1>Building Things
                             <p>
                                 is our mission
                             </p>
-                        </h1>
+                        </h1> -->
                 
             </div>
         </div>
 
-        <section>
-            <div class="d-flex justify-content-center align-items-center" style="background-image:url('landing/img/reasons.png');
-            height: 70vh;">
+        <section class="kategori-1">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="container">
                     <div class="row">
-                        <h2 class="text-center mb-5" style="font-size: 45px">Pilih Service</h2>
-                        <div class="col-md-2"></div>
+                        <h2 class="text-center mt-5 mb-5">Pilih Service</h2>
+                        <div class="col-md-2 no"></div>
                         <div class="col-md-4">
                             <div class="card">
                                 <div class="card-body">
@@ -156,43 +155,43 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2"></div>
+                        <div class="col-md-2 no"></div>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <section>
-            <div class="bg-image d-flex justify-content-center align-items-center" style="background-image:url('landing/img/services.png');">
+        <section class="mitra">
+            <div class="d-flex justify-content-center align-items-center">
                 <div class="container">
-                    <h2 class="text-center mt-5" style="font-size: 45px; font-weight:bold">Mitra Electron</h2>
+                    <h2 class="text-center mt-5">Mitra Electron</h2>
                     <div class="row g-4 mt-2 mb-5">
 
-                        <div class="col-md-2 col-sm-0"></div>
-                        <div class="col-md-4">
-                            <div class="card d-flex justify-content-center" style="align-items: center; height:16rem;">
+                        <div class="col-md-2 col-xs-2 no"></div>
+                        <div class="col-md-4 col-xs-4">
+                            <div class="card d-flex justify-content-center card-mitra">
                                 <img src="{{asset('landing/img/icon1.png')}}" class="img-fluid w-25" alt="...">
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card d-flex justify-content-center" style="align-items: center; height:16rem;">
+                        <div class="col-md-4 col-xs-4">
+                            <div class="card d-flex justify-content-center card-mitra">
                                 <img src="{{asset('landing/img/icon2.png')}}" class="img-fluid w-50" alt="...">
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-0"></div>
-                        <div class="col-md-2 col-sm-0"></div>
-                        <div class="col-md-4">
-                            <div class="card d-flex justify-content-center" style="align-items: center; height:16rem;">
+                        <div class="col-md-2 col-xs-2 no"></div>
+                        <div class="col-md-2 col-xs-2 no"></div>
+                        <div class="col-md-4 col-xs-4">
+                            <div class="card d-flex justify-content-center card-mitra">
                                 <img src="{{asset('landing/img/icon3.png')}}" class="img-fluid w-50" alt="...">
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card d-flex justify-content-center" style="align-items: center; height:16rem;">
+                        <div class="col-md-4 col-xs-4">
+                            <div class="card d-flex justify-content-center card-mitra">
                                 <img src="{{asset('landing/img/icon4.png')}}" class="img-fluid w-50" alt="...">
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-0"></div>
+                        <div class="col-md-2 col-xs-2 no"></div>
                     </div>
                 </div>
             </div>
@@ -209,7 +208,7 @@
                     <div class="col-lg-8">
 
                         <div class="latest_product_inner row">
-                            <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
+                            <div class="col-lg-6 col-md-6 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -218,7 +217,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
+                            <div class="col-lg-6 col-md-6 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -227,7 +226,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
+                            <div class="col-lg-6 col-md-6 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -236,7 +235,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
+                            <div class="col-lg-6 col-md-6 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
