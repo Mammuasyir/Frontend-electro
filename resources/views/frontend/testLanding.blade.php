@@ -122,26 +122,9 @@
             </div>
         </div>
 
-        <section>
-            <div class="container mt-5 mb-5">
-                <div class="pembungkus">
-                    <div class="d-flex">
-                        <img src="{{asset('landing/img/bg2.png')}}" class="img-fluid mt-3" alt="Logo">
-                        <div class="d-flex justify-content-center mt-5">
-                            <img src="{{asset('landing/img/frame2.png')}}" style="position:absolute" class="img-fluid mt-5" alt="Logo">
-                            <div class="banner_content row">
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="kategori-1 mb-5">
             <div class="d-flex justify-content-center align-items-center">
-                <div class="container">
+                <div class="container mb-5">
                     <h2 class="text-center mt-5">Pilih Service</h2>
                     <div class="row g-3 mt-3 mb-5">
                         <div class="col-md-2 col-xs-2 no"></div>
@@ -169,8 +152,18 @@
             </div>
         </section>
 
+        <div class="about mt-5 mb-5">
+            <div class="container">
+                <div class="d-flex">
+                    <img src="{{asset('landing/img/bg2.png')}}" class="img-fluid bg ms-5 mt-3 mb-5 " alt="Logo">
+                    <div class="d-flex justify-content-center mt-5">
+                        <img src="{{asset('landing/img/frame2.png')}}" class="img-fluid bg-2 mt-5" style="position: absolute;" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <section class="mitra">
+        <section class="mitra mt-5 mb-5">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="container">
                     <h2 class="text-center mt-5">Mitra Electron</h2>
