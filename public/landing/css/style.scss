@@ -1,3 +1,36 @@
 *{
     font-family: 'Work-Sans';
 }
+
+.bg-web{
+    position: relative;
+    .bg{
+        width: 100%;
+    }
+    h1{
+        position: absolute;
+        color: #33334f;
+        font-weight: 600;
+        font-size: 5vw;
+        left: 170px;
+        top: 230px;
+    }
+}
+
+.produk-area{
+    .jud{
+        color: #000F48
+    }
+    .latest_product_inner{
+        .card-body{
+            background-color: #FFC806;
+            h4{
+                color: #000F48
+                
+            }
+            p{
+                font-size: 1vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+* {
+  font-family: 'Work-Sans';
+}
+
+.bg-web {
+  position: relative;
+}
+
+.bg-web .bg {
+  width: 100%;
+}
+
+.bg-web h1 {
+  position: absolute;
+  color: #33334f;
+  font-weight: 600;
+  font-size: 5vw;
+  left: 170px;
+  top: 230px;
+}
+
+.produk-area .jud {
+  color: #000F48;
+}
+
+.produk-area .latest_product_inner .card-body {
+  background-color: #FFC806;
+}
+
+.produk-area .latest_product_inner .card-body h4 {
+  color: #000F48;
+}
+
+.produk-area .latest_product_inner .card-body p {
+  font-size: 1vw;
+}
+/*# sourceMappingURL=style.css.map */

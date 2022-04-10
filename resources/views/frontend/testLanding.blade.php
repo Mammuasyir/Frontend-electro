@@ -18,6 +18,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('landing/css/ionicons.min.css')}}">
     <link rel="stylesheet" href="{{asset('landing/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('landing/css/footer.css')}}">
+
 
 
     <!-- Google Fonts -->
@@ -33,28 +35,12 @@
     .bg-mobile {
         display: none !important;
     }
-
-    .pembungkus {
-        position: relative;
-    }
-
-    .text-dlm {
-        position: absolute;
-        left: 170px;
-        top: 230px;
-        color: #33334f;
-        font-size: 60px;
-    }
-
-    .bg {
-        background-size: cover;
-    }
 </style>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
                 <a href="/" aria-current="page"> <img class="img-fluid" src="{{asset('landing/img/logo.png')}}" style="width: 170px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +51,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" style="color: #33334F; font-family: Open Sans;" aria-current="page" href="#">HOME</a>
                         </li>
-                        <li class="nav-item dropdown ms-4">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" style="color: #33334F; font-family: Open Sans;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCT
                             </a>
@@ -131,28 +117,26 @@
     </header>
 
     <div class="content_area">
-        <section class="bg-web">
-            <div class="d-flex justify-content-center align-items-center" style="background-image:url('landing/img/main-bg.png'); width:100%; height:110vh;background-repeat: no-repeat;">
-                <div class="container">
-                    <div class="banner_content row">
-                        <div class="logo_banner offset-lg-2" style="font-weight:bold">
-                            <h1 class="text-medium text-dlm">Building Things
-                                <p>
-                                    is our mission
-                                </p>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="bg-web">
+            <img src="{{asset('landing/img/main-bg.png')}}" class="img-fluid bg" alt="Logo">
+            <div class="container">
+                
+                        <h1>Building Things
+                            <p>
+                                is our mission
+                            </p>
+                        </h1>
+                
             </div>
-        </section>
+        </div>
 
         <section>
-            <div class="d-flex justify-content-center align-items-center" style="background-image:url('landing/img/reasons.png'); margin-top:-50px;
+            <div class="d-flex justify-content-center align-items-center" style="background-image:url('landing/img/reasons.png');
             height: 70vh;">
                 <div class="container">
                     <div class="row">
-                        <h2 class="text-center mb-5" style="font-family: 'Work-Sans'; font-size: 45px">Pilih Service</h2>
+                        <h2 class="text-center mb-5" style="font-size: 45px">Pilih Service</h2>
                         <div class="col-md-2"></div>
                         <div class="col-md-4">
                             <div class="card">
@@ -182,7 +166,7 @@
         <section>
             <div class="bg-image d-flex justify-content-center align-items-center" style="background-image:url('landing/img/services.png');">
                 <div class="container">
-                    <h2 class="text-center mt-5" style="font-family: 'Work-Sans'; font-size: 45px; font-weight:bold">Mitra Electron</h2>
+                    <h2 class="text-center mt-5" style="font-size: 45px; font-weight:bold">Mitra Electron</h2>
                     <div class="row g-4 mt-2 mb-5">
 
                         <div class="col-md-2 col-sm-0"></div>
@@ -215,9 +199,9 @@
         </section>
 
         <!--================Category Product Area =================-->
-        <section>
+        <section class="produk-area">
             <div class="container mt-5 mb-5">
-                <div class="h1" style="color: #000F48">
+                <div class="h2 jud">
                     PRODUK TERBARU
                 </div>
 
@@ -228,8 +212,8 @@
                             <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
-                                    <div class="card-body" style="background-color: #FFC806;">
-                                        <h4 style="color: #000F48">Penjualan Tenaga Listrik</h2>
+                                    <div class="card-body">
+                                        <h4>Penjualan Tenaga Listrik</h4>
                                             <p class="card-text">Some quick example text to build on</p>
                                     </div>
                                 </div>
@@ -237,8 +221,8 @@
                             <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
-                                    <div class="card-body" style="background-color: #FFC806;">
-                                        <h4 style="color: #000F48">Penjualan Tenaga Listrik</h2>
+                                    <div class="card-body">
+                                        <h4>Penjualan Tenaga Listrik</h4>
                                             <p class="card-text">Some quick example text to build on</p>
                                     </div>
                                 </div>
@@ -246,8 +230,8 @@
                             <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
-                                    <div class="card-body" style="background-color: #FFC806;">
-                                        <h4 style="color: #000F48">Penjualan Tenaga Listrik</h2>
+                                    <div class="card-body">
+                                        <h4>Penjualan Tenaga Listrik</h4>
                                             <p class="card-text">Some quick example text to build on</p>
                                     </div>
                                 </div>
@@ -255,8 +239,8 @@
                             <div class="col-lg-6 col-md-6 col-xs-12 mb-4">
                                 <div class="card">
                                     <img src="{{asset('landing/img/produk1.png')}}" class="card-img-top" alt="...">
-                                    <div class="card-body" style="background-color: #FFC806;">
-                                        <h4 style="color: #000F48">Penjualan Tenaga Listrik</h2>
+                                    <div class="card-body">
+                                        <h4>Penjualan Tenaga Listrik</h4>
                                             <p class="card-text">Some quick example text to build on</p>
                                     </div>
                                 </div>
@@ -343,13 +327,13 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-12 mb-md-0 mb-4">
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">ADDRESS: </h2> <span style="font-family: 'Times New Roman', Times, serif;">&nbsp;6391 Elgin St. Celina, Delaware 10299</span>
+                                <h2 class="footer-heading">ADDRESS: </h2> <span>&nbsp;6391 Elgin St. Celina, Delaware 10299</span>
                             </div>
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">PHONE: </h2> <span style="font-family: 'Times New Roman', Times, serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+84 1102 2703</span>
+                                <h2 class="footer-heading">PHONE: </h2> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+84 1102 2703</span>
                             </div>
                             <div class="d-flex justify-content-start">
-                                <h2 class="footer-heading">EMAIL: </h2> <span style="font-family: 'Times New Roman', Times, serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@electron.com</span>
+                                <h2 class="footer-heading">EMAIL: </h2> <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@electron.com</span>
                             </div>
                             <a href="/" aria-current="page"> <img class="img-fluid" src="{{asset('landing/img/logo.png')}}" style="width: 140px;"></a>
                         </div>
