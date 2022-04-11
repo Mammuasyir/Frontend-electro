@@ -207,7 +207,7 @@
         <section class="produk-area">
             <div class="container mt-5 mb-5">
                 <div class="h2 jud">
-                    PRODUK TERBARU
+                    Produk Terbaru
                 </div>
 
                 <div class="row flex-row-reverse">

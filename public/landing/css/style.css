@@ -317,6 +317,7 @@
 }
 
 .produk-area .jud {
+  font-weight: bold;
   color: #000F48;
 }
 
@@ -325,11 +326,12 @@
 }
 
 .produk-area .latest_product_inner .card-body h4 {
+  font-weight: bold;
   color: #000F48;
 }
 
 .produk-area .latest_product_inner .card-body p {
-  font-size: 1vw;
+  font-size: 18px;
 }
 
 .blank h3 {
@@ -363,5 +365,24 @@
   .blank .btn-blank .btn {
     font-size: 4vw;
   }
+}
+
+.all h2 {
+  color: #000F48;
+  font-weight: bold;
+}
+
+.all .pro .card-body {
+  background-color: #FFC806;
+}
+
+.all .pro .card-body h6 {
+  color: #000F48;
+  font-weight: bold;
+}
+
+.all .widgets_inner ul li {
+  font-weight: bold;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

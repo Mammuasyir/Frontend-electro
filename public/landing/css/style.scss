@@ -326,17 +326,19 @@
 
 .produk-area{
     .jud{
-        color: #000F48
+        font-weight:bold;
+        color: #000F48;
     }
     .latest_product_inner{
         .card-body{
             background-color: #FFC806;
             h4{
+                font-weight: bold;
                 color: #000F48
                 
             }
             p{
-                font-size: 1vw;
+                font-size: 18px;
             }
         }
     }
@@ -374,6 +376,31 @@
         .btn-blank{
             .btn{
                 font-size: 4vw;
+            }
+        }
+    }
+}
+
+//All-produk
+.all{
+    h2{
+        color: #000F48;
+        font-weight: bold;
+    }
+    .pro{
+        .card-body{
+            background-color: #FFC806;
+            h6{
+                color: #000F48;
+                font-weight: bold;
+            }
+        }
+    }
+    .widgets_inner{
+        ul{
+            li{
+                font-weight:bold;
+                cursor:pointer;
             }
         }
     }
