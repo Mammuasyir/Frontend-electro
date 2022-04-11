@@ -10,7 +10,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" style="color: #33334F; font-family: Open Sans;" aria-current="page" href="#">HOME</a>
                         </li>
-                        <li class="nav-item dropdown ms-4">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" style="color: #33334F; font-family: Open Sans;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCT
                             </a>

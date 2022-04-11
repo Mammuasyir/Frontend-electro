@@ -29,25 +29,6 @@
     <title>ELECTRON</title>
 </head>
 
-<style type="text/css">
-    .pembungkus {
-        position: relative;
-    }
-
-    .text-dlm {
-        position: absolute;
-        left: 170px;
-        top: 230px;
-        color: #33334f;
-        font-family: 'Work Sans';
-        font-size: 60px;
-    }
-
-    .bg {
-        background-size: cover;
-    }
-</style>
-
 <body>
 
 @include('includes.navbar')

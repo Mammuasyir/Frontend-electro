@@ -155,9 +155,14 @@
         <div class="about mt-5 mb-5">
             <div class="container">
                 <div class="d-flex">
-                    <img src="{{asset('landing/img/bg2.png')}}" class="img-fluid bg ms-5 mt-3 mb-5 " alt="Logo">
+                    <img src="{{asset('landing/img/bg2.png')}}" class="img-fluid bg mt-3 mb-5 " alt="Logo">
                     <div class="d-flex justify-content-center mt-5">
-                        <img src="{{asset('landing/img/frame2.png')}}" class="img-fluid bg-2 mt-5" style="position: absolute;" alt="Logo">
+                        <img src="{{asset('landing/img/frame2.png')}}" class="img-fluid bg-2 mt-5" alt="Logo">
+                        <h3>Tentang Electron</h3>
+                        <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem obcaecati quae vitae ratione unde esse, nesciunt repudiandae praesentium mollitia a ab ducimus labore accusamus deleniti ea fuga et quis!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est corporis molestias porro rem fugiat. Vel a similique, optio, odit eius ipsa suscipit.
+                        </p>
+                        <button type="button" class="btn-about"><a class="btn" href="#">More on Our History</a></button>
                     </div>
                 </div>
             </div>

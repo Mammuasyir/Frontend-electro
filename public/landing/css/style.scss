@@ -1,7 +1,7 @@
 *{
     font-family: 'Work-Sans';
 }
-
+//Landing
 .bg-web{
     position: relative;
     .bg{
@@ -68,18 +68,225 @@
 }
 
 .about{
-    
-    
-        
-            .bg{
-                width: 100%;
-            }
-            .bg-2{
-                position: absolute;
-            }
-        
-    
+    .bg-2{
+        position: absolute;
+    }
+    h3{
+        position: absolute;
+        color: white;
+        font-weight: bolder;
+        font-size: 3vw;
+    }
+    p{
+        position: absolute;
+        color: white;
+        font-size: 1.5vw;
+    }
+    .btn-about{
+        position: absolute;
+        background-color: #FFC806;
+        .btn{
+            color: #2947A9;
+            font-size: 1.5vw;
+            font-weight: 550; 
+        }
+    }
 }
+@media screen and (max-width: 1440px){
+    .about{
+        h3{
+            left: 780px;
+            top: 1210px;
+        }
+        p{
+            left: 780px;
+            right: 240px;
+            top: 1290px;
+        }
+        .btn-about{
+            left: 780px;
+            top: 1600px;
+        }
+    }
+}
+@media screen and (max-width: 1399px){
+    .about{
+        h3{
+            left: 830px;
+            top: 1170px;
+        }
+        p{
+            left: 830px;
+            right: 150px;
+            top: 1250px;
+        }
+        .btn-about{
+            left: 830px;
+            top: 1580px;
+        }
+    }
+}
+@media screen and (max-width: 1326px){
+    .about{
+        h3{
+            left: 815px;
+            top: 1160px;
+        }
+        p{
+            left: 815px;
+            right: 100px;
+            top: 1235px;
+        }
+        .btn-about{
+            left: 815px;
+            top: 1540px;
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .about{
+        .bg{
+            padding-right: 40px;
+        }
+        .bg-2{
+            right: 25px;
+        }
+        h3{
+            font-size: 3.7vw;
+            left: 530px;
+            top: 1025px;
+        }
+        p{
+            font-size: 1.9vw;
+            left: 530px;
+            right: 100px;
+            top: 1105px;
+        }
+        .btn-about{
+            left: 530px;
+            top: 1390px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .about{
+        .bg-2{
+            height: 400px;
+        }
+        h3{
+            font-size: 3.8vw;
+            left: 410px;
+            top: 910px;
+        }
+        p{
+            font-size: 2vw;
+            left: 410px;
+            right: 80px;
+            top: 960px;
+        }
+        .btn-about{
+            left: 410px;
+            top: 1199px;
+        }
+    }
+}
+@media screen and (max-width: 425px){
+    .about{
+        .bg{
+            height: 280px;
+            width: 400px;
+        }
+        .bg-2{
+            margin-right: -25px;
+            width: 360px;
+            height: 285px;
+            top: 720px;
+        }
+        h3{
+            font-size: 5.9vw;
+            left: 90px;
+            top: 779px;
+        }
+        p{
+            font-size: 3.2vw;
+            left: 90px;
+            right: 30px;
+            top: 815px;
+        }
+        .btn-about{
+            .btn{
+                font-size: 3vw;
+            }
+            left: 90px;
+            top: 975px;
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    .about{
+        .bg{
+            height: 280px;
+            width: 400px;
+        }
+        .bg-2{
+            margin-right: -25px;
+            width: 320px;
+            height: 265px;
+            top: 720px;
+        }
+        h3{
+            font-size: 5.9vw;
+            left: 90px;
+            top: 779px;
+        }
+        p{
+            font-size: 3.2vw;
+            left: 90px;
+            right: 30px;
+            top: 815px;
+        }
+        .btn-about{
+            .btn{
+                font-size: 3vw;
+            }
+            left: 90px;
+            top: 964px;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .about{
+        .bg{
+            height: 280px;
+            width: 400px;
+        }
+        .bg-2{
+            margin-right: -25px;
+            width: 320px;
+            height: 265px;
+            top: 720px;
+        }
+        h3{
+            font-size: 6.2vw;
+            left: 32px;
+            top: 779px;
+        }
+        p{
+            font-size: 3.9vw;
+            left: 32px;
+            right: 18px;
+            top: 811px;
+        }
+        .btn-about{
+            .btn{
+                font-size: 3vw;
+            }
+            left: 32px;
+            top: 964px;
+        }
+    }
+}
+
 
 .mitra{
     position: relative;
@@ -130,6 +337,43 @@
             }
             p{
                 font-size: 1vw;
+            }
+        }
+    }
+}
+
+//Blank-cart
+.blank{
+    h3{
+        font-weight: bolder;
+        font-family:'Poppins';
+        font-size:3vw
+    }
+    p{
+        color: #000F48;
+    }
+    .btn-blank{
+        background-color: #000F48;
+        .btn{
+            color: #FFC806;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .blank {
+        h3{
+            font-size: 5vw;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .blank {
+        p{
+            font-size: 4vw;
+        }
+        .btn-blank{
+            .btn{
+                font-size: 4vw;
             }
         }
     }
