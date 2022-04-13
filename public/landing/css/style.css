@@ -2,6 +2,38 @@
   font-family: 'Work-Sans';
 }
 
+.navbar a .img-fluid {
+  width: 170px;
+}
+
+.navbar .collapse ul li .nav-link {
+  color: #000F48;
+}
+
+.navbar .d-flex .nav-link {
+  color: #000F48;
+}
+
+.navbar .d-flex .btn-login {
+  border-radius: 0;
+  color: #000F48;
+  border-color: #000F48;
+}
+
+.navbar .d-flex .btn-login:hover {
+  background-color: #FFC806;
+}
+
+.navbar .d-flex a:hover {
+  color: white;
+}
+
+.navbar .d-flex .daftar {
+  border-radius: 0;
+  color: #FFC806;
+  background-color: #000F48;
+}
+
 .bg-web {
   position: relative;
 }
