@@ -73,17 +73,24 @@
   color: white;
   font-weight: bolder;
   font-size: 3vw;
+  left: 800px;
+  top: 1220px;
 }
 
 .about p {
   position: absolute;
   color: white;
   font-size: 1.5vw;
+  left: 800px;
+  right: 260px;
+  top: 1300px;
 }
 
 .about .btn-about {
   position: absolute;
   background-color: #FFC806;
+  left: 800px;
+  top: 1620px;
 }
 
 .about .btn-about .btn {
