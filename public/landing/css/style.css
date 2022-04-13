@@ -418,4 +418,45 @@
     padding-right: -20px;
   }
 }
+
+.detail h2 {
+  font-weight: bold;
+}
+
+.detail .h5 {
+  font-weight: bolder;
+}
+
+.detail p .total {
+  font-weight: bold;
+}
+
+.detail input {
+  font-size: 14px;
+  color: #012970;
+  border: 1px solid rgba(1, 41, 112, 0.2);
+  padding: 7px 38px 7px 8px;
+  border-radius: 3px;
+  width: 100%;
+  height: 25px;
+}
+
+.detail .tambah {
+  color: #FFC806 !important;
+  display: block;
+  font-size: 16px;
+  background: #000F48 !important;
+  border: none;
+  border-radius: 0;
+}
+
+.detail .tawar {
+  border-radius: 0;
+  color: #000F48;
+  border-color: #000F48;
+}
+
+.detail .btn:hover {
+  background-color: #FFC806;
+}
 /*# sourceMappingURL=style.css.map */

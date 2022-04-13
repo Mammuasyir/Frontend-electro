@@ -22,3 +22,4 @@ Route::get('/testLanding', [App\Http\Controllers\LandingController::class, 'test
 Route::get('/testAllProduk', [App\Http\Controllers\LandingController::class, 'testAllProduk'])->name('testAllProduk');
 Route::get('/testDetail', [App\Http\Controllers\LandingController::class, 'testDetail'])->name('testDetail');
 Route::get('/testBlank-cart', [App\Http\Controllers\LandingController::class, 'testBlankcart'])->name('testBlankcart');
+Route::get('/testProfil', [App\Http\Controllers\LandingController::class, 'testProfil'])->name('testProfil');
