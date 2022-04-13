@@ -384,7 +384,6 @@
 //All-produk
 .all{
     .search-bar{
-        min-width: 360px;
         .search-form{
             width: 100%;
             input{
@@ -434,9 +433,7 @@
     .all {
         .search-bar{
             .search-form{
-                input{
-                    width: 60vh;
-                }
+                padding-right: -20px;
             }
         }
     }

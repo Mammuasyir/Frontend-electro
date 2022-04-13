@@ -367,10 +367,6 @@
   }
 }
 
-.all .search-bar {
-  min-width: 360px;
-}
-
 .all .search-bar .search-form {
   width: 100%;
 }
@@ -418,8 +414,8 @@
 }
 
 @media screen and (max-width: 375px) {
-  .all .search-bar .search-form input {
-    width: 60vh;
+  .all .search-bar .search-form {
+    padding-right: -20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
