@@ -383,6 +383,31 @@
 
 //All-produk
 .all{
+    .search-bar{
+        min-width: 360px;
+        .search-form{
+            width: 100%;
+            input{
+                border: 0;
+                font-size: 14px;
+                color: #012970;
+                border: 1px solid rgba(1, 41, 112, 0.2);
+                padding: 7px 38px 7px 8px;
+                border-radius: 3px;
+                transition: 0.3s;
+                width: 100%;
+            }
+            button{
+                border: 0;
+                padding: 0;
+                margin-left: -30px;
+                background: none;
+            }
+            i{
+                color: #000F48;
+            }
+        }
+    }
     h2{
         color: #000F48;
         font-weight: bold;
@@ -401,6 +426,17 @@
             li{
                 font-weight:bold;
                 cursor:pointer;
+            }
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .all {
+        .search-bar{
+            .search-form{
+                input{
+                    width: 60vh;
+                }
             }
         }
     }

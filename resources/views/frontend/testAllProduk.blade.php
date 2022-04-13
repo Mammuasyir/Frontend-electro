@@ -4,16 +4,21 @@
 
 <!--================Category Product Area =================-->
 <div class="container all mt-5 mb-5">
-    <div class="d-flex justify-content-between">
-        <h2 class="pt-5">
-            Product Electron
-        </h2>
-        <div class="search-bar pt-5">
-            <form class="search-form d-flex justify-content-center" method="get" action="#">
-                <input type="text" name="search" placeholder="Search by Name" title="Enter search keyword">
-                <button type="submit" title="Search"><i class="fas fa-search"></i></button>
-            </form>
-        </div><!-- End Search Bar -->
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <h2 class="pt-5">
+                Product Electron
+            </h2>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+            <div class="search-bar pt-5">
+                <form class="search-form d-flex justify-content-center" method="get" action="#">
+                    <input type="text" name="search" placeholder="Search.." title="Enter search keyword">
+                    <button type="submit" title="Search"><i class="fas fa-search"></i></button>
+                </form>
+            </div><!-- End Search Bar -->
+        </div>
     </div>
 
     <div class="row flex-row-reverse">
